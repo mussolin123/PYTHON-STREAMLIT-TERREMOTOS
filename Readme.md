@@ -1,3 +1,11 @@
+# Dados globais sobre terremotos"
+> Este conjunto de dados fornece informações detalhadas sobre 1.137 terremotos ao redor do mundo, incluindo atributos como magnitude, localização, tempo e medições sismológicas. Os dados foram coletados usando a API EveryEarthquake da RapidAPI.
+
+> Fonte: https://www.kaggle.com/datasets/shreyasur965/recent-earthquakes?resource=download
+
+![Mapa dos Terremotos](mapa.png)
+
+# Comandos
 # Abre na web:
 > -m streamlit run trabalho.py
 
