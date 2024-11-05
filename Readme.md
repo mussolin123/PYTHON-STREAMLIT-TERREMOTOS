@@ -1,20 +1,24 @@
 # Abre na web:
-> C:/Users/leticia.lima/AppData/Local/Programs/Python/Python39/python.exe -m streamlit run trabalho.py
 > -m streamlit run trabalho.py
 
-# Intaladções de Bibliotecas:
+# Instalações de Bibliotecas:
+
+# Pandas
+Biblioteca para manipulação e análise de dados. V
+> -m pip install pandas
 
 # Matplotlib
-Faz com que...
-> C:/Users/leticia.lima/AppData/Local/Programs/Python/Python39/python.exe -m pip install matplotlib
+Permite criar uma ampla variedade de gráficos e figuras. 
 > -m pip install matplotlib
 
 # Seaborn
-Faz com que...
-> C:/Users/leticia.lima/AppData/Local/Programs/Python/Python39/python.exe -m pip install seaborn
+Visualização de dados em Python construída sobre o Matplotlib. Ela oferece funcionalidades adicionais para criar gráficos estatísticos mais atraentes e informativos. 
 > -m pip install seaborn
 
-#Plotly
+# Plotly
 Usado para adicionar animações ao gráfico de pizza em Streamlit utilizando a biblioteca plotly
-> C:/Users/leticia.lima/AppData/Local/Programs/Python/Python39/python.exe -m pip install plotly
 > -m pip install plotly
+
+# Streamlit
+Uma biblioteca em Python que permite criar aplicativos web interativos de forma simples e rápida.
+> -m pip install streamlit
