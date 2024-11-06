@@ -1,32 +1,49 @@
-# Dados globais sobre terremotos"
-> Este conjunto de dados fornece informações detalhadas sobre 1.137 terremotos ao redor do mundo, incluindo atributos como magnitude, localização, tempo e medições sismológicas. Os dados foram coletados usando a API EveryEarthquake da RapidAPI.
+# 🌎 Dados Globais sobre Terremotos
 
-> Fonte: https://www.kaggle.com/datasets/shreyasur965/recent-earthquakes?resource=download
+> Este projeto explora um conjunto de dados com informações detalhadas sobre 1.137 terremotos ao redor do mundo. Cada registro fornece atributos como magnitude, localização, data e medições sismológicas, coletados por meio da API EveryEarthquake, disponível na RapidAPI.
+
+Utilizamos Python e técnicas de Ciência de Dados para analisar esses dados, aplicando modelos de regressão linear e logística. O projeto também inclui uma interface interativa desenvolvida com a biblioteca Streamlit, permitindo a visualização e exploração dos dados em uma aplicação web intuitiva.
+
+> 🔗 [Fonte dos Dados no Kaggle](https://www.kaggle.com/datasets/shreyasur965/recent-earthquakes?resource=download)
 
 ![Mapa dos Terremotos](mapa.png)
 
-# Comandos
-# Abre na web:
-> -m streamlit run trabalho.py
+---
 
-# Instalações de Bibliotecas:
+## 🚀 Como Rodar o Projeto
 
-# Pandas
-Biblioteca para manipulação e análise de dados. V
-> -m pip install pandas
+Para visualizar a aplicação web:
 
-# Matplotlib
-Permite criar uma ampla variedade de gráficos e figuras. 
-> -m pip install matplotlib
+```bash
+python -m streamlit run trabalho.py´
+```
+# 📦 Instalação das Bibliotecas Necessárias
 
-# Seaborn
-Visualização de dados em Python construída sobre o Matplotlib. Ela oferece funcionalidades adicionais para criar gráficos estatísticos mais atraentes e informativos. 
-> -m pip install seaborn
+Para executar o projeto, é necessário instalar as bibliotecas abaixo:
 
-# Plotly
-Usado para adicionar animações ao gráfico de pizza em Streamlit utilizando a biblioteca plotly
-> -m pip install plotly
+Pandas: Para manipulação e análise de dados.
 
-# Streamlit
-Uma biblioteca em Python que permite criar aplicativos web interativos de forma simples e rápida.
-> -m pip install streamlit
+```bash
+python -m pip install pandas
+```
+
+Matplotlib: Para criação de gráficos e visualizações.
+
+```bash
+python -m pip install matplotlib
+```
+
+Seaborn: Extensão do Matplotlib para visualizações estatísticas aprimoradas.
+```bash
+python -m pip install seaborn
+```
+
+Plotly: Para criar gráficos interativos, incluindo gráficos animados em Streamlit.
+```bash
+python -m pip install plotly
+```
+
+Streamlit: Para desenvolvimento de aplicações web interativas em Python.
+```bash
+python -m pip install streamlit
+```
