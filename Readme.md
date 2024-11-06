@@ -15,7 +15,7 @@ Utilizamos Python e técnicas de Ciência de Dados para analisar esses dados, ap
 Para visualizar a aplicação web:
 
 ```bash
-python -m streamlit run trabalho.py´
+python -m streamlit run trabalho.py
 ```
 # 📦 Instalação das Bibliotecas Necessárias
 
