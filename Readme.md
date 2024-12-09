@@ -19,15 +19,17 @@ python -m venv venv
 venv\Scripts\activate
 ```
 
-Para visualizar a aplicação web:
-
-```bash
-python -m streamlit run trabalho.py
-```
 # 📦 Instalação das Bibliotecas Necessárias
-
 Para executar o projeto, é necessário instalar as bibliotecas auxiliares. Rode o comando abaixo para instalar todos de uma só vez.
 
 ```bash
 pip install -r requirements.txt
 ```
+
+Para visualizar a aplicação web:
+
+```bash
+python -m streamlit run trabalho.py
+```
+
+
