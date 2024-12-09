@@ -12,6 +12,13 @@ Utilizamos Python e técnicas de Ciência de Dados para analisar esses dados, ap
 
 ## 🚀 Como Rodar o Projeto
 
+Se necessário, rodar um ambiente virtual:
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
 Para visualizar a aplicação web:
 
 ```bash
@@ -19,31 +26,8 @@ python -m streamlit run trabalho.py
 ```
 # 📦 Instalação das Bibliotecas Necessárias
 
-Para executar o projeto, é necessário instalar as bibliotecas abaixo:
-
-Pandas: Para manipulação e análise de dados.
+Para executar o projeto, é necessário instalar as bibliotecas auxiliares. Rode o comando abaixo para instalar todos de uma só vez.
 
 ```bash
-python -m pip install pandas
-```
-
-Matplotlib: Para criação de gráficos e visualizações.
-
-```bash
-python -m pip install matplotlib
-```
-
-Seaborn: Extensão do Matplotlib para visualizações estatísticas aprimoradas.
-```bash
-python -m pip install seaborn
-```
-
-Plotly: Para criar gráficos interativos, incluindo gráficos animados em Streamlit.
-```bash
-python -m pip install plotly
-```
-
-Streamlit: Para desenvolvimento de aplicações web interativas em Python.
-```bash
-python -m pip install streamlit
+pip install -r requirements.txt
 ```
